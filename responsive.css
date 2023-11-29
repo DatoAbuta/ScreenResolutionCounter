@@ -58,3 +58,25 @@
         text-align: center;
     }
 }
+@media (width >= 1920px){
+    .box{
+        width: 543px;
+        height: 70px;
+        background-color: lightblue;
+        border-radius: 8px;
+        margin: 24px 0 0 688px;
+        color: #202733;
+        text-align: center;
+        font-family: 'Red Hat Text';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
