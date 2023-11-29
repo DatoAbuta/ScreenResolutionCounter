@@ -1,0 +1,60 @@
+@media (width >= 412px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Red Hat Text';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+    }
+    .box{
+        width: 288px;
+        height: 70px;
+        background-color: lightblue;
+        border-radius: 8px;
+        margin: 24px 0 0 55px;
+        color: #202733;
+        text-align: center;
+        font-family: 'Red Hat Text';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (width >= 1440px){
+    .box{
+        width: 543px;
+        height: 70px;
+        background-color: lightblue;
+        border-radius: 8px;
+        margin: 24px 0 0 450px;
+        color: #202733;
+        text-align: center;
+        font-family: 'Red Hat Text';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
