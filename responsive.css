@@ -38,6 +38,10 @@
 }
 
 @media (width >= 768px){
+
+    h1{
+        width: 550px;
+    }
     .box{
         width: 540px;
     }
