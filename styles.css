@@ -7,7 +7,10 @@
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 150px;
+    row-gap: 30px;
 }
 body{
     background: var(--Dark-Blue, #202733);
@@ -23,6 +26,7 @@ h1{
     line-height: normal;
     letter-spacing: 7.5px;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .box{
@@ -30,7 +34,7 @@ h1{
     height: 70px;
     background-color: lightblue;
     border-radius: 8px;
-    margin: 24px 0 0 39px;
+    margin: 0 auto;
     color: #202733;
     text-align: center;
     font-family: 'Red Hat Text';
@@ -44,4 +48,5 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: 0.3s;
 }

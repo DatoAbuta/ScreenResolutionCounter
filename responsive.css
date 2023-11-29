@@ -14,13 +14,13 @@
         line-height: normal;
         letter-spacing: 7.5px;
         text-transform: uppercase;
+        width: 300px;
     }
     .box{
         width: 288px;
         height: 70px;
         background-color: lightblue;
         border-radius: 8px;
-        margin: 24px 0 0 55px;
         color: #202733;
         text-align: center;
         font-family: 'Red Hat Text';
@@ -36,13 +36,22 @@
         text-align: center;
     }
 }
+
+@media (width >= 768px){
+    .box{
+        width: 540px;
+    }
+}
+
 @media (width >= 1440px){
+    h1{
+        width: 550px;
+    }
     .box{
         width: 543px;
         height: 70px;
         background-color: lightblue;
         border-radius: 8px;
-        margin: 24px 0 0 450px;
         color: #202733;
         text-align: center;
         font-family: 'Red Hat Text';
@@ -64,7 +73,6 @@
         height: 70px;
         background-color: lightblue;
         border-radius: 8px;
-        margin: 24px 0 0 688px;
         color: #202733;
         text-align: center;
         font-family: 'Red Hat Text';
